@@ -1,3 +1,19 @@
-/* TODO (optional): Define styles for dark mode */
+.darkModeToggle {
+  background-color: #111827;
+  color: #f9fafb;
+  border: 1px solid #374151;
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
 
-/* TODO (optional): Ensure text and background colors adjust for dark mode */
+.darkModeToggle:hover {
+  filter: brightness(1.1);
+}
+
+.darkModeToggle.light {
+  background-color: #f3f4f6;
+  color: #111827;
+  border-color: #d1d5db;
+}
